@@ -73,7 +73,7 @@ var PLAYER_PHOTOS = {
         },
         {
             "file": "photos/ronaldinho-3.jpg",
-            "caption": "Роналдиньо в Казани"
+            "caption": "Роналдиньо в жёлтой форме «Барселоны» из Эквадора"
         },
         {
             "file": "photos/ronaldinho-4.jpg",
