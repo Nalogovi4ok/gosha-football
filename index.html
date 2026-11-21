@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Футболистые — картотека лучших футболистов</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Меню -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html#top">ФУТБОЛИСТЫ<span class="brand-dot">.</span></a>
+      <div class="nav-links">
+        <a href="index.html#catalog">Каталог</a>
+        <a href="index.html#about">О проекте</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero-экран -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-kicker">Интерактивный справочник · 2027</p>
+      <h1>Лучшие футболисты планеты — в одном справочнике</h1>
+      <p class="hero-sub">Биографии, стиль игры, клубная карьера, достижения и статистика.
+      Восемь героев современного футбола, собранные в аккуратную картотеку.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="index.html#catalog">Открыть картотеку</a>
+        <a class="btn btn-ghost" href="index.html#about">О проекте</a>
+      </div>
+      <div class="hero-stats" id="hero-stats"></div>
+    </div>
+  </header>
+
+  <!-- Каталог: вкладки, поиск, карточки -->
+  <section class="catalog" id="catalog">
+    <div class="toolbar">
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-mode="az">А–Я</button>
+        <button class="tab" data-mode="za">Я–А</button>
+        <button class="tab" data-mode="club">По клубам</button>
+        <button class="tab" data-mode="position">По позициям</button>
+      </div>
+      <input id="search" type="search" placeholder="Поиск игрока или клуба…" autocomplete="off">
+    </div>
+
+    <div class="container">
+      <div id="cards" class="cards"></div>
+    </div>
+  </section>
+
+  <!-- О проекте -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>О проекте</h2>
+      <p class="about-lead">Сайт сделан как учебный проект, но собран по правилам настоящих
+      медиа: строгая типографика, честные данные и ничего лишнего.</p>
+      <div class="features">
+        <div class="feature">
+          <h3>Картотека</h3>
+          <p>Игроки отсортированы по алфавиту, клубам и позициям. Поиск находит нужного
+          игрока за секунду.</p>
+        </div>
+        <div class="feature">
+          <h3>Страницы игроков</h3>
+          <p>У каждого игрока — своя страница: биография, фотогалерея, видео и цифры
+          карьеры.</p>
+        </div>
+        <div class="feature">
+          <h3>Цифры</h3>
+          <p>Статистика подана крупно и без лишних слов: голы, матчи, трофеи. Данные —
+          приблизительные и проверяемые.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <p id="counter"></p>
+      <p>Сделал Гоша · 2027</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

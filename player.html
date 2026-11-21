@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профиль игрока — Футболистые</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Меню -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html#top">ФУТБОЛИСТЫ<span class="brand-dot">.</span></a>
+      <div class="nav-links">
+        <a href="index.html#catalog">Каталог</a>
+        <a href="index.html#about">О проекте</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Шапка страницы игрока (заполняет player.js) -->
+  <header class="player-hero" id="player-hero">
+    <div class="container player-hero-inner">
+      <a class="back-link" href="index.html#catalog">← К картотеке</a>
+      <div class="player-id">
+        <div class="player-avatar" id="p-avatar"></div>
+        <div>
+          <h1 id="p-name"></h1>
+          <p id="p-sub"></p>
+        </div>
+      </div>
+      <div class="player-stats" id="p-stats"></div>
+    </div>
+  </header>
+
+  <main class="player-main">
+
+    <!-- История -->
+    <section class="player-section">
+      <div class="container">
+        <h2>История</h2>
+        <section class="bio-block">
+          <h3>Ранние годы</h3>
+          <p id="p-early"></p>
+        </section>
+        <section class="bio-block">
+          <h3>Стиль игры</h3>
+          <p id="p-style"></p>
+        </section>
+        <section class="bio-block">
+          <h3>Клубная карьера</h3>
+          <p id="p-career"></p>
+        </section>
+        <section class="bio-block">
+          <h3>Достижения</h3>
+          <ul id="p-achievements"></ul>
+        </section>
+        <section class="fact-box">
+          <h3>Интересный факт</h3>
+          <p id="p-fact"></p>
+        </section>
+      </div>
+    </section>
+
+    <!-- Фотогалерея -->
+    <section class="player-section alt" id="photos">
+      <div class="container">
+        <h2>Фотогалерея</h2>
+        <div id="p-gallery" class="gallery"></div>
+        <p class="source-note">Фото: Wikimedia Commons, свободные лицензии.</p>
+      </div>
+    </section>
+
+    <!-- Видео -->
+    <section class="player-section" id="videos">
+      <div class="container">
+        <h2>Видео</h2>
+        <div id="p-videos" class="videos"></div>
+        <p class="source-note">Видео открываются на YouTube в новой вкладке.</p>
+      </div>
+    </section>
+
+    <!-- Предыдущий / следующий игрок -->
+    <nav class="pager container">
+      <a id="p-prev" class="pager-link"></a>
+      <a id="p-next" class="pager-link"></a>
+    </nav>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>Футболистые — учебный проект Гоши</p>
+      <p>Сделал Гоша · 2027</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="player.js"></script>
+</body>
+</html>
