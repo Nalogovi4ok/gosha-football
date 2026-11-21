@@ -79,17 +79,13 @@ var PLAYER_PHOTOS = {
   ],
   "ronaldo-nazario": [
       {
-          "file": "photos/ronaldo-nazario-1.jpg",
-          "caption": "Placa Huellas de Ronaldo Nazário A74277020241123"
-      },
+                "file": "photos/ronaldo-nazario-2.jpg",
+                "caption": "Ronaldo Nazario \"Fenômeno\" (5122564094)"
+            },
       {
-          "file": "photos/ronaldo-nazario-2.jpg",
-          "caption": "Ronaldo Nazario \"Fenômeno\" (5122564094)"
-      },
-      {
-          "file": "photos/ronaldo-nazario-3.jpg",
-          "caption": "Ronaldo Luís Nazário de Lima 2019 (3x4 cropped)"
-      }
+                "file": "photos/ronaldo-nazario-3.jpg",
+                "caption": "Ronaldo Luís Nazário de Lima 2019 (3x4 cropped)"
+            }
   ],
   "zidane": [
       {
@@ -166,7 +162,7 @@ var PLAYER_PHOTOS = {
   "pushkas": [
       {
           "file": "photos/pushkas-1.jpg",
-          "caption": "56 PUSKÁS FERENC KURÍR HAZAÉRKEZIK ARCOK"
+          "caption": "PUSKÁS FERENC KURÍR HAZAÉRKEZIK ARCOK"
       },
       {
           "file": "photos/pushkas-2.jpg",
@@ -220,11 +216,11 @@ var PLAYER_PHOTOS = {
   "pirlo": [
       {
           "file": "photos/pirlo-1.jpg",
-          "caption": "Andrea Pirlo 2017"
+          "caption": "Андреа Пирло в «Нью-Йорк Сити»"
       },
       {
           "file": "photos/pirlo-2.jpg",
-          "caption": "1 andrea pirlo 2014"
+          "caption": "Andrea pirlo 2014"
       },
       {
           "file": "photos/pirlo-3.jpg",
