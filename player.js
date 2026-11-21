@@ -82,8 +82,8 @@ if (player.videos && player.videos.length) {
     .map(function (v) {
       return (
         '<div class="video-embed">' +
-        '<iframe src="https://www.youtube-nocookie.com/embed/' + v.youtube + '"' +
-        ' title="' + v.title + '" frameborder="0" allowfullscreen loading="lazy"></iframe>' +
+        '<iframe src="https://rutube.ru/play/embed/' + v.rutube + '"' +
+        ' title="' + v.title + '" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>' +
         '<p>' + v.title + '</p>' +
         '</div>'
       );
