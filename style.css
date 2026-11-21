@@ -670,6 +670,11 @@ body {
   color: #9fd4bd;
 }
 
+.videos.single {
+  grid-template-columns: 1fr;
+  max-width: 680px;
+}
+
 .video-embed {
   aspect-ratio: 16 / 9;
 }

@@ -75,6 +75,9 @@ document.getElementById("p-gallery").innerHTML = photos.length
 var videosDiv = document.getElementById("p-videos");
 
 if (player.videos && player.videos.length) {
+  videosDiv.classList.add("single");
+  document.getElementById("videos-note").textContent =
+    "Видео воспроизводятся прямо на сайте.";
   videosDiv.innerHTML = player.videos
     .map(function (v) {
       return (
@@ -91,6 +94,8 @@ if (player.videos && player.videos.length) {
     [player.name + " best goals and skills", "Лучшие голы и моменты"],
     [player.name + " interview and career review", "Интервью и обзор карьеры"]
   ];
+  document.getElementById("videos-note").textContent =
+    "Видео открываются на YouTube в новой вкладке.";
   videosDiv.innerHTML = queries
     .map(function (q) {
       return (

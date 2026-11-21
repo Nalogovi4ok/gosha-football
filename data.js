@@ -1,4 +1,4 @@
-// Картотека игроков: состав из списка класса (40 футболистов).
+// Картотека игроков: финальный состав проекта (20 футболистов).
 // Анкета заполнена как страница справочника: ранние годы, стиль игры,
 // карьера, достижения, статистика, интересный факт.
 // Фото каждого игрока лежит в photos/ и подключается через PLAYER_PHOTOS.
@@ -8,173 +8,173 @@ var PLAYER_PHOTOS = {
   "pele": [
       {
           "file": "photos/pele-1.jpg",
-          "caption": "Pelé 1960"
+          "caption": "Пеле празднует победу на ЧМ-1970"
       },
       {
           "file": "photos/pele-2.jpg",
-          "caption": "Pelé in a traditional Lebanese hat"
+          "caption": "Пеле в ливанской шапке"
       },
       {
           "file": "photos/pele-3.jpg",
-          "caption": "Pelé madurga"
+          "caption": "Пеле с партнёром по сборной"
       },
       {
           "file": "photos/pele-4.jpg",
-          "caption": "Pelé 1960 darker scan"
+          "caption": "Пеле, 1960"
       }
   ],
   "maradona": [
       {
           "file": "photos/maradona-1.jpg",
-          "caption": "Maradona at 2012 GCC Champions League final"
+          "caption": "Марадона на финале Кубка лиги Персидского залива, 2012"
       },
       {
           "file": "photos/maradona-2.jpg",
-          "caption": "Diego Maradona 2012 2"
+          "caption": "Марадона с наградой"
       },
       {
           "file": "photos/maradona-3.jpg",
-          "caption": "Diego Maradona 2012 1"
+          "caption": "Марадона даёт интервью"
       },
       {
           "file": "photos/maradona-4.jpg",
-          "caption": "DIEGO MARADONA (49693255461)"
+          "caption": "Футболка Марадоны в музее клуба"
       }
   ],
   "messi": [
       {
           "file": "photos/messi-1.jpg",
-          "caption": "FWC 2018 - Group D - ARG v ISL - Messi penalty kick"
+          "caption": "Месси бьёт пенальти на ЧМ-2018"
       },
       {
           "file": "photos/messi-2.jpg",
-          "caption": "Suisse vs Argentine - Granit Xhaka & Lionel Messi"
+          "caption": "Месси в матче со Швейцарией"
       },
       {
           "file": "photos/messi-3.jpg",
-          "caption": "Cristiano Ronaldo and Lionel Messi - Portugal vs Argentina, 9th February 2011"
+          "caption": "Криштиану Роналду и Лионель Месси"
       },
       {
           "file": "photos/messi-4.jpg",
-          "caption": "Lionel Messi 2025"
+          "caption": "Месси в «Интер Майами»"
       }
   ],
   "ronaldinho": [
       {
           "file": "photos/ronaldinho-1.jpg",
-          "caption": "Ronaldinho in 2019"
+          "caption": "Роналдиньо, 2016"
       },
       {
           "file": "photos/ronaldinho-2.jpg",
-          "caption": "Ronaldinho Kazan"
+          "caption": "Роналдиньо, июнь 2019"
       },
       {
           "file": "photos/ronaldinho-3.jpg",
-          "caption": "Ronaldinho Gaúcho 2016"
+          "caption": "Роналдиньо в Казани"
       },
       {
           "file": "photos/ronaldinho-4.jpg",
-          "caption": "Ronaldinho Gaúcho em junho de 2019"
+          "caption": "Роналдиньо, 2019"
       }
   ],
   "ronaldo-nazario": [
       {
                 "file": "photos/ronaldo-nazario-2.jpg",
-                "caption": "Ronaldo Nazario \"Fenômeno\" (5122564094)"
+                "caption": "Роналдо «Феномен» в «Коринтиансе»"
             },
       {
                 "file": "photos/ronaldo-nazario-3.jpg",
-                "caption": "Ronaldo Luís Nazário de Lima 2019 (3x4 cropped)"
+                "caption": "Роналдо Назарио, 2019"
             }
   ],
   "zidane": [
       {
           "file": "photos/zidane-1.jpg",
-          "caption": "Zinedine Zidane 2008-2"
+          "caption": "Зидан «Зизу»"
       },
       {
           "file": "photos/zidane-2.jpg",
-          "caption": "Zidane Zizu"
+          "caption": "Зинедин Зидан"
       },
       {
           "file": "photos/zidane-3.jpg",
-          "caption": "Zinedine Zidane (41758545214)"
+          "caption": "Зидан «Зизу»"
       },
       {
           "file": "photos/zidane-4.jpg",
-          "caption": "Zinedine Zidane by Tasnim 02"
+          "caption": "Зидан «Зизу»"
       }
   ],
   "cruyff": [
       {
           "file": "photos/cruyff-1.jpg",
-          "caption": "Johan Cruyff 1974c"
+          "caption": "Йохан Кройф в молодости"
       },
       {
           "file": "photos/cruyff-2.jpg",
-          "caption": "Johan Cruijff (Cruyff)"
+          "caption": "Йохан Кройф с велосипедом"
       },
       {
           "file": "photos/cruyff-3.jpg",
-          "caption": "Homenatge Camp Nou Johan Cruyff"
+          "caption": "Кройф на обложке журнала El Gráfico"
       },
       {
           "file": "photos/cruyff-4.jpg",
-          "caption": "Johan Cruyff ArenA IMG 20190329 190155 951"
+          "caption": "Кройф забивает за «Аякс»"
       }
   ],
   "mbappe": [
       {
           "file": "photos/mbappe-1.jpg",
-          "caption": "Kylian Mbappé 2018"
+          "caption": "Мбаппе с трофеем в сборной Франции"
       },
       {
           "file": "photos/mbappe-2.jpg",
-          "caption": "Kylian Mbappé (cropped)"
+          "caption": "Мбаппе даёт автограф"
       },
       {
           "file": "photos/mbappe-3.jpg",
-          "caption": "Kylian Mbappé (46369981091)"
+          "caption": "Мбаппе на поле"
       },
       {
           "file": "photos/mbappe-4.jpg",
-          "caption": "Kylian Mbappé x Maxime Tabart"
+          "caption": "Мбаппе подписывает контракт"
       }
   ],
   "yamal": [
       {
           "file": "photos/yamal-1.jpg",
-          "caption": "Lamine Yamal in 2025"
+          "caption": "Ямаль в сборной Испании"
       },
       {
           "file": "photos/yamal-2.jpg",
-          "caption": "Lamine Yamal a Xina"
+          "caption": "Ямаль на пресс-конференции"
       },
       {
           "file": "photos/yamal-3.jpg",
-          "caption": "Lamine Yamal Argentina v Spain 19 July 2026-133"
+          "caption": "Ямаль — сборная Испании"
       },
       {
           "file": "photos/yamal-4.jpg",
-          "caption": "Lamine Yamal in 2025 (cropped2)"
+          "caption": "Ямаль с мячом"
       }
   ],
   "golovin": [
       {
           "file": "photos/golovin-1.jpg",
-          "caption": "Aleksandr Golovin"
+          "caption": "Головин в сборной России"
       },
       {
           "file": "photos/golovin-2.jpg",
-          "caption": "Aleksandr Golovin 2016"
+          "caption": "Головин в ЦСКА"
       },
       {
           "file": "photos/golovin-3.jpg",
-          "caption": "Aleksandr Golovin (10.10.2019)"
+          "caption": "Головин в «Монако»"
       },
       {
           "file": "photos/golovin-4.jpg",
-          "caption": "Dedryck Boyata, Aleksandr Golovin (12.06.2021)"
+          "caption": "Головин в сборной России"
       }
   ]
 };
@@ -201,7 +201,8 @@ var players = [
       ["3", "кубка мира"],
       ["92", "хет-трика"]
     ],
-    fact: "В 17 лет Пеле забил дважды в финале ЧМ-1958 — и до сих пор остаётся самым юным автором гола в финалах чемпионатов мира."
+    fact: "В 17 лет Пеле забил дважды в финале ЧМ-1958 — и до сих пор остаётся самым юным автором гола в финалах чемпионатов мира.",
+    videos: [{youtube: "WXg8P0u9W9I", title: "Pele -Top 10 Impossible Goals Ever"}, {youtube: "bUTRZGCiiFs", title: "🇧🇷 Pele's Top 5 Goals | FIFA World Cup"}]
   },
   {
     id: "maradona",
@@ -224,7 +225,8 @@ var players = [
       ["4", "чемпионата мира"],
       ["2", "скудетто с Наполи"]
     ],
-    fact: "В четвертьфинале ЧМ-1986 Марадона забил в одном матче два легендарных гола: «руку Бога» и «гол века» — после прохода мимо шести англичан."
+    fact: "В четвертьфинале ЧМ-1986 Марадона забил в одном матче два легендарных гола: «руку Бога» и «гол века» — после прохода мимо шести англичан.",
+    videos: [{youtube: "XegYZ8y3xMY", title: "🇦🇷 Diego Maradona’s Top 5 Goals | FIFA World Cup"}, {youtube: "2ZEA7O3qdnE", title: "20 Legendary Goals By Diego Maradona"}]
   },
   {
     id: "messi",
@@ -248,7 +250,8 @@ var players = [
       ["45+", "трофеев"],
       ["8", "Золотых мячей"]
     ],
-    fact: "У Месси столько же «Золотых мячей», сколько пальцев на одной руке. А прозвище у него «Блоха» — за маленький рост и неуловимость."
+    fact: "У Месси столько же «Золотых мячей», сколько пальцев на одной руке. А прозвище у него «Блоха» — за маленький рост и неуловимость.",
+    videos: [{youtube: "w10xwfkU4h0", title: "Lionel Messi - Top 20 Goals Ever"}, {youtube: "5twveLmWhvI", title: "10 Impossible Goals Scored By Lionel Messi That Cristiano Ronaldo Will Never Ever Score | HD"}]
   },
   {
     id: "ronaldinho",
@@ -271,7 +274,8 @@ var players = [
       ["600+", "матчей"],
       ["2", "звания игрока года ФИФА"]
     ],
-    fact: "После двух голов Роналдиньо против «Реала» болельщики мадридцев встали и аплодировали сопернику — такое уважение случается крайне редко."
+    fact: "После двух голов Роналдиньо против «Реала» болельщики мадридцев встали и аплодировали сопернику — такое уважение случается крайне редко.",
+    videos: [{youtube: "Ggam4fGI7RQ", title: "Ronaldinho Was Truly Unstoppable in His Prime!"}, {youtube: "ADi1A1dX9wA", title: "LEGENDARY Skills By Ronaldinho 😲"}]
   },
   {
     id: "ronaldo-nazario",
@@ -294,7 +298,8 @@ var players = [
       ["600+", "матчей"],
       ["15", "голов на чемпионатах мира"]
     ],
-    fact: "Перед ЧМ-2002 ему никто не верил: после двух разрывов связок Роналдо пропустил почти два года. В итоге — «Золотая бутса» турнира и титул чемпиона."
+    fact: "Перед ЧМ-2002 ему никто не верил: после двух разрывов связок Роналдо пропустил почти два года. В итоге — «Золотая бутса» турнира и титул чемпиона.",
+    videos: [{youtube: "CbZUytjrgrQ", title: "RONALDO NAZARIO | Best Real Madrid GOALS!"}, {youtube: "pyF2mK939aM", title: "Ronaldo Nazario ● Greatest Dribbling Skills & Goals Ever"}]
   },
   {
     id: "zidane",
@@ -317,7 +322,8 @@ var players = [
       ["108", "матчей за сборную"],
       ["3", "Лиги чемпионов как тренер"]
     ],
-    fact: "Его удар через себя в финале Лиги чемпионов 2002 — один из самых красивых голов в истории турнира."
+    fact: "Его удар через себя в финале Лиги чемпионов 2002 — один из самых красивых голов в истории турнира.",
+    videos: [{youtube: "GkWNboVtzho", title: "Zinedine Zidane is ridiculously clear of any player today"}, {youtube: "BCyFCXBhJKg", title: "Zinedine Zidane Top 20 Legendary Goals"}]
   },
   {
     id: "cruyff",
@@ -340,7 +346,8 @@ var players = [
       ["3", "Золотых мяча"],
       ["9", "чемпионств в Нидерландах и Испании"]
     ],
-    fact: "На ЧМ-1974 Кройф показал фирменный разворот — «кройффиани». Его до сих пор изучают в футбольных академиях."
+    fact: "На ЧМ-1974 Кройф показал фирменный разворот — «кройффиани». Его до сих пор изучают в футбольных академиях.",
+    videos: [{youtube: "Vib2uy5cf7M", title: "Johan Cruyff - The Impossible is Nothing"}, {youtube: "Y-BpXEMr6LU", title: "Johan Cruyff • Skills • Goals"}]
   },
   {
     id: "mbappe",
@@ -363,7 +370,8 @@ var players = [
       ["15+", "трофеев"],
       ["1", "кубок мира"]
     ],
-    fact: "В финале чемпионата мира 2022 оформил хет-трик — три мяча в одном финале. До него такое удавалось только Пеле в 1958 году."
+    fact: "В финале чемпионата мира 2022 оформил хет-трик — три мяча в одном финале. До него такое удавалось только Пеле в 1958 году.",
+    videos: [{youtube: "5psZqZLb9PU", title: "Kylian Mbappe Top 20 Crazy Goals / Top 20 Impossible Sprints"}, {youtube: "hJNoPuPe52Y", title: "Best 10 Goals of Kylian Mbappe"}]
   },
   {
     id: "yamal",
@@ -386,7 +394,8 @@ var players = [
       ["150+", "матчей"],
       ["5+", "трофеев"]
     ],
-    fact: "Ему было всего 16, когда он забил в полуфинале Евро-2024, — а на следующий день после финала ему исполнилось 17."
+    fact: "Ему было всего 16, когда он забил в полуфинале Евро-2024, — а на следующий день после финала ему исполнилось 17.",
+    videos: [{youtube: "7B_rDnLiApA", title: "Lamine Yamal 2026/27 – Skills, Dribbling & Goals | 4K 🔥"}, {youtube: "rOkllIBU2do", title: "Lamine Yamal 100+ MONSTER Skills"}]
   },
   {
     id: "golovin",
@@ -408,6 +417,7 @@ var players = [
       ["60+", "матчей за сборную"],
       ["1", "чемпионство России"]
     ],
-    fact: "Гол Головина в первом матче ЧМ-2018 против Саудовской Аравии открыл весь домашний чемпионат мира."
+    fact: "Гол Головина в первом матче ЧМ-2018 против Саудовской Аравии открыл весь домашний чемпионат мира.",
+    videos: [{youtube: "Th49ObaGmyE", title: "Aleksandr Golovin #250 - Best of - AS MONACO"}, {youtube: "jcFoTRafPxQ", title: "Aleksandr Golovin skills, assists, and goals / Александр Головин скиллы, передачи и голы"}]
   },
 ];
